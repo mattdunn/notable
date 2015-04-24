@@ -9,9 +9,13 @@
 , "dependencies": {
   }
 , "devDependencies": {
-    "gulp": "*"
+    "babel-loader": "*"
+,   "babel-core": "*"
+,   "react": "*"
+,   "webpack": "*"
   }
 , "scripts": {
+    "build-scripts": "node_modules/.bin/webpack --progress"
   }
 , "engines": {
     "node": "0.12.x"
