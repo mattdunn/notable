@@ -6,7 +6,7 @@ module.exports =
   output: { 
     path     : __dirname + "/public",
     filename : "[name].js"
-  }, 
+  },
   module : { 
     loaders : [{ 
         test   : /\.js$/,

@@ -4,9 +4,10 @@
 , "description": "notes"
 , "repository": {
     "type": "git"
-  , "url": "git@github.com:mattdunn/notable.git"
+,   "url": "git@github.com:mattdunn/notable.git"
   }
 , "dependencies": {
+    "express": "*"
   }
 , "devDependencies": {
     "babel-loader": "*"
@@ -15,7 +16,8 @@
 ,   "webpack": "*"
   }
 , "scripts": {
-    "build-scripts": "node_modules/.bin/webpack --progress"
+    "transpile": "node_modules/.bin/webpack --progress"
+,   "start": "node index.js"
   }
 , "engines": {
     "node": "0.12.x"
