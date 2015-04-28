@@ -23,6 +23,8 @@ Create and retrieve tagged notes
  - authentication
  
    - with google?
+
+ - flux branch?
    
 ## useful links
 
