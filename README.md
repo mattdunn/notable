@@ -1,22 +1,6 @@
 # notable
 
-Capture learning, optimising for ease of access 
-
-An example:
-
-**title**
-
-replace string in a file
-
-**tags**
-
-unix,sed,regex
-
-**note**
-
-sed -i.bak 's/find-me/replaced/' my-file.json
-
-the -i option backs up the file being modified and appends the suffix.
+Create and retrieve tagged notes
 
 ## todo
 
