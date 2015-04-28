@@ -24,7 +24,7 @@ Create and retrieve tagged notes
  
    - with google?
    
-* useful links
+## useful links
 
  - react tagging library
 
