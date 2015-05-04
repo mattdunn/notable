@@ -10,6 +10,8 @@ WORKDIR /app
 ADD . /app/
 RUN npm run transpile
 
+env PATH /app/node_modules/.bin:$PATH
+
 EXPOSE 4000
 
 CMD npm run start
