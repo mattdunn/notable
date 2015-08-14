@@ -2,6 +2,16 @@
 
 Create and retrieve tagged notes
 
+# getting started
+
+- start container:
+
+  `docker-compose up`
+
+- open app in browser:
+
+  `open "http://`docker-machine ip docker-vm`:4000"`
+
 ## todo
 
  - gulp build?
